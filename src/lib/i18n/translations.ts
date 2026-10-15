@@ -225,7 +225,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "login.checkEmailTitle": "Confirmation email sent",
     "login.checkEmail": "Please check your inbox to confirm your email address, then sign in.",
     "login.backToSignIn": "Proceed to Sign In",
-    "login.joinPros": "Join 1,000+ Real Estate Pros",
+    "login.joinPros": "Join 100+ Real Estate Pros",
     "login.testimonial": "“This tool is an absolute game-changer. I staged three empty home listings in under a minute and got offers on all of them within the week!”",
     "login.testimonialAuthor": "— Sarah Jenkins, Managing Broker at Premier Properties",
 
@@ -538,7 +538,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "login.checkEmailTitle": "Email de confirmation envoyé",
     "login.checkEmail": "Veuillez vérifier votre boîte de réception pour valider votre compte, puis connectez-vous.",
     "login.backToSignIn": "Se connecter",
-    "login.joinPros": "Rejoignez plus de 1 000 professionnels de l'immobilier",
+    "login.joinPros": "Rejoignez plus de 100 professionnels de l'immobilier",
     "login.testimonial": "« Cet outil est une véritable révolution. J'ai meublé trois biens vides en moins d'une minute et nous avons reçu des offres d'achat dès la première semaine ! »",
     "login.testimonialAuthor": "— Sarah Jenkins, Directrice d'Agence Immobilière",
 

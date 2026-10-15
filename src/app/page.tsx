@@ -262,7 +262,7 @@ export default function Home() {
               </div>
               <div className="space-y-1">
                 <p className="font-display text-3xl font-extrabold text-primary tracking-tight">
-                  1,000<span className="text-accent">+</span>
+                  100<span className="text-accent">+</span>
                 </p>
                 <p className="text-sm text-slate-500 font-medium">{t("stats.users")}</p>
               </div>
