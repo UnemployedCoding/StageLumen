@@ -31,7 +31,7 @@ export default function ApiPage() {
   ];
 
   return (
-    <div className="bg-slate-50 py-20 min-h-screen">
+    <div className="bg-slate-50 page-top-spacing pb-20 min-h-screen">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Header */}

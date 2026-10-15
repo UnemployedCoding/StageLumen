@@ -237,7 +237,7 @@ export default function DashboardPage() {
       </aside>
 
       {/* ── Main content ── */}
-      <main className="flex-1 md:ml-64 p-6 lg:p-10">
+      <main className="flex-1 md:ml-64 page-top-spacing px-6 pb-6 lg:px-10 lg:pb-10">
 
         {activeTab === "stage" && (
           <div className="max-w-4xl space-y-8">

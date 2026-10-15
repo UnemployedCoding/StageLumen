@@ -225,7 +225,7 @@ export default function GalleryPage() {
 
   return (
     <div className="bg-slate-50 min-h-screen">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8 pb-14 lg:pb-20">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 page-top-spacing pb-14 lg:pb-20">
 
         {/* ── Heading ── */}
         <div className="text-center mb-10 space-y-3 max-w-4xl mx-auto">

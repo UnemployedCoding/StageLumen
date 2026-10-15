@@ -15,7 +15,7 @@ export default function ContactPage() {
   const [state, handleSubmit] = useForm(FORMSPREE_ID);
 
   return (
-    <div className="bg-slate-50 py-20 min-h-screen">
+    <div className="bg-slate-50 page-top-spacing pb-20 min-h-screen">
       <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 space-y-8">
         <div className="text-center space-y-4">
           <h1 className="font-display text-4xl sm:text-5xl font-extrabold text-primary tracking-tight">
