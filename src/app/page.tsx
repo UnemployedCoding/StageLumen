@@ -293,21 +293,6 @@ export default function Home() {
             <span className="font-sans font-extrabold text-2xl italic tracking-tight text-slate-800">
               LJ Hooker
             </span>
-            
-            {/* Belle Property style */}
-            <div className="flex flex-col items-center justify-center leading-none">
-              <span className="font-serif font-bold text-[1.6rem] lowercase tracking-wide text-slate-800">
-                belle
-              </span>
-              <span className="font-sans font-bold text-[8px] tracking-[0.35em] text-slate-500 uppercase mt-1">
-                property
-              </span>
-            </div>
-            
-            {/* Barry Plant style */}
-            <span className="font-sans font-bold text-2xl tracking-tight text-slate-800">
-              BarryPlant
-            </span>
           </div>
         </div>
       </section>
