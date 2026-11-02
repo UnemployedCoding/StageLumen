@@ -49,7 +49,7 @@ const translations: Record<Locale, Record<string, string>> = {
     // Stats Bar
     "stats.turnaroundVal": "Under 45s",
     "stats.turnaround": "Turnaround Time",
-    "stats.costVal": "<$1 / img",
+    "stats.costVal": "<A$1 / img",
     "stats.cost": "Average Cost",
     "stats.styles": "Design Styles",
     "stats.realistic": "Realistic Staging",
@@ -66,7 +66,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "features.card2.title": "Faster Listing Speeds",
     "features.card2.desc": "Upload raw photo listings and receive fully furnished versions in under 45 seconds. Stage and list the exact same day.",
     "features.card3.title": "Save Thousands of Dollars",
-    "features.card3.desc": "Physical staging can cost upwards of $2,000 per property. StageLumen stages your entire list starting at just $19.",
+    "features.card3.desc": "Physical staging can cost upwards of $2,000 per property. StageLumen stages your entire list starting at just A$19.",
 
     // How It Works
     "howItWorks.title": "Staging In 3 Simple Steps",
@@ -84,7 +84,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "compare.feature": "Feature",
     "compare.traditional": "Traditional Staging",
     "compare.costPerListing": "Cost per listing",
-    "compare.costUs": "$1 - $2",
+    "compare.costUs": "A$1 - A$2",
     "compare.costThem": "$200 - $600",
     "compare.speed": "Delivery speed",
     "compare.speedUs": "Under 45 seconds",
@@ -111,11 +111,11 @@ const translations: Record<Locale, Record<string, string>> = {
     "faq.q4": "Which staging styles are available?",
     "faq.a4": "We support many design styles, including Modern, Scandinavian, Luxury, Midcentury, Coastal, Farmhouse, and Industrial.",
     "faq.q5": "Is there a free trial?",
-    "faq.a5": "We don't offer a free trial, but our plans start from as little as $19/month with no long-term commitment. You can cancel anytime.",
+    "faq.a5": "We don't offer a free trial, but our plans start from as little as A$19/month with no long-term commitment. You can cancel anytime.",
 
     // Final CTA
     "cta.title": "Ready to Stun Your Home Buyers?",
-    "cta.subtitle": "Virtual Staging by AI. Get instant, highly realistic furnished room photos in seconds. Starting at just $19/month.",
+    "cta.subtitle": "Virtual Staging by AI. Get instant, highly realistic furnished room photos in seconds. Starting at just A$19/month.",
     "cta.getStarted": "Get Started",
     "cta.viewPricing": "View Pricing Plans",
     "cta.turnaround": "45-sec turnaround",
@@ -170,11 +170,12 @@ const translations: Record<Locale, Record<string, string>> = {
     "pricing.subscribe": "Subscribe",
     "pricing.currentPlan": "Current Plan",
     "pricing.perCredit": "per credit",
+    "pricing.currencyNote": "All prices are in Australian dollars (AUD).",
     "pricing.processing": "Processing...",
     "pricing.baseDesc": "Perfect for trying out the platform.",
     "pricing.proDesc": "Best for active real estate professionals.",
     "pricing.businessDesc": "For agencies & high-volume users.",
-    "pricing.bestValue": "Best value, $0.50 per credit",
+    "pricing.bestValue": "Best value, A$0.50 per credit",
     "pricing.base": "Base",
     "pricing.pro": "Pro",
     "pricing.business": "Business",
@@ -198,7 +199,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "pricing.faq.q3": "Do you offer annual discounts?",
     "pricing.faq.a3": "We currently offer monthly billing only. This gives you maximum flexibility to adjust your plan as needed without long-term commitments.",
     "pricing.faq.q4": "Is there a free trial?",
-    "pricing.faq.a4": "We don't currently offer a free trial, but our Base plan starts at just $19/month with no long-term commitment required.",
+    "pricing.faq.a4": "We don't currently offer a free trial, but our Base plan starts at just A$19/month with no long-term commitment required.",
 
     // Login Page
     "login.createAccount": "Create your account",
@@ -362,7 +363,7 @@ const translations: Record<Locale, Record<string, string>> = {
     // Stats Bar
     "stats.turnaroundVal": "Moins de 45s",
     "stats.turnaround": "Délai de génération",
-    "stats.costVal": "< 1 $ / photo",
+    "stats.costVal": "< 1 $ AUD / photo",
     "stats.cost": "Coût par photo",
     "stats.styles": "Styles de décoration",
     "stats.realistic": "Rendu ultra-réaliste",
@@ -379,7 +380,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "features.card2.title": "Publiez vos annonces plus vite",
     "features.card2.desc": "Importez vos photos brutes et obtenez des pièces entièrement meublées en moins de 45 secondes. Photographiez, meublez et publiez le jour même.",
     "features.card3.title": "Économisez des milliers d'euros",
-    "features.card3.desc": "La location de mobilier physique dépasse souvent 2 000 $ par bien. StageLumen met en valeur toutes vos annonces dès seulement 19 $ par mois.",
+    "features.card3.desc": "La location de mobilier physique dépasse souvent 2 000 $ par bien. StageLumen met en valeur toutes vos annonces dès seulement 19 $ AUD par mois.",
 
     // How It Works
     "howItWorks.title": "Le home staging en 3 étapes simples",
@@ -397,7 +398,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "compare.feature": "Critères",
     "compare.traditional": "Staging Traditionnel",
     "compare.costPerListing": "Coût par annonce",
-    "compare.costUs": "1 $ - 2 $",
+    "compare.costUs": "1 $ AUD - 2 $ AUD",
     "compare.costThem": "200 $ - 600 $",
     "compare.speed": "Délai de livraison",
     "compare.speedUs": "Moins de 45 secondes",
@@ -424,11 +425,11 @@ const translations: Record<Locale, Record<string, string>> = {
     "faq.q4": "Quels styles de décoration sont proposés ?",
     "faq.a4": "Nous proposons de nombreux styles : Moderne, Scandinave, Luxe, Mid-century, Bord de mer, Campagne chic et Industriel.",
     "faq.q5": "Y a-t-il un engagement de durée ?",
-    "faq.a5": "Aucun. Nos forfaits démarrent à seulement 19 $/mois sans engagement à long terme. Vous pouvez annuler votre abonnement à tout moment en 1 clic.",
+    "faq.a5": "Aucun. Nos forfaits démarrent à seulement 19 $ AUD/mois sans engagement à long terme. Vous pouvez annuler votre abonnement à tout moment en 1 clic.",
 
     // Final CTA
     "cta.title": "Prêt à sublimer vos annonces immobilières ?",
-    "cta.subtitle": "Offrez à vos mandats une mise en valeur exceptionnelle. Des visuels professionnels dès 19 $/mois.",
+    "cta.subtitle": "Offrez à vos mandats une mise en valeur exceptionnelle. Des visuels professionnels dès 19 $ AUD/mois.",
     "cta.getStarted": "Commencer maintenant",
     "cta.viewPricing": "Voir les forfaits",
     "cta.turnaround": "Génération en 45 secondes",
@@ -483,11 +484,12 @@ const translations: Record<Locale, Record<string, string>> = {
     "pricing.subscribe": "S'abonner",
     "pricing.currentPlan": "Forfait actuel",
     "pricing.perCredit": "par crédit",
+    "pricing.currencyNote": "Tous les prix sont en dollars australiens (AUD).",
     "pricing.processing": "Traitement en cours…",
     "pricing.baseDesc": "Idéal pour découvrir la plateforme.",
     "pricing.proDesc": "Recommandé pour les agents immobiliers actifs.",
     "pricing.businessDesc": "Pour les agences et gros volumes.",
-    "pricing.bestValue": "Meilleur tarif, 0,50 $ par crédit",
+    "pricing.bestValue": "Meilleur tarif, 0,50 $ AUD par crédit",
     "pricing.base": "Base",
     "pricing.pro": "Pro",
     "pricing.business": "Business",
@@ -511,7 +513,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "pricing.faq.q3": "Proposez-vous des forfaits annuels ?",
     "pricing.faq.a3": "Nous privilégions actuellement la facturation mensuelle sans engagement, afin de vous offrir une flexibilité maximale adaptée à la saisonnalité de vos mandats.",
     "pricing.faq.q4": "Y a-t-il un engagement de durée ?",
-    "pricing.faq.a4": "Aucun engagement. Notre forfait de démarrage est accessible dès 19 $/mois et vous pouvez vous désabonner en 1 clic quand vous le souhaitez.",
+    "pricing.faq.a4": "Aucun engagement. Notre forfait de démarrage est accessible dès 19 $ AUD/mois et vous pouvez vous désabonner en 1 clic quand vous le souhaitez.",
 
     // Login Page
     "login.createAccount": "Créer votre compte",

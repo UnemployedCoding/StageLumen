@@ -134,6 +134,9 @@ function PricingContent() {
           <p className="text-slate-600 text-lg leading-relaxed">
             {t("pricing.subtitle")}
           </p>
+          <p className="text-sm font-semibold text-slate-500">
+            {t("pricing.currencyNote")}
+          </p>
 
           {/* See demo button */}
           <div className="pt-2 flex items-center justify-center">
@@ -183,10 +186,10 @@ function PricingContent() {
                   </p>
                   <div className="pt-4 pb-2">
                     <div className="flex items-baseline gap-1.5">
-                      <span className="text-4xl font-semibold text-primary tracking-tight">${price}</span>
+                      <span className="text-4xl font-semibold text-primary tracking-tight">A${price}</span>
                       <span className="text-sm text-slate-500 font-medium uppercase tracking-wider">{t("pricing.perMonth")}</span>
                     </div>
-                    <p className="text-xs text-slate-400 font-medium mt-2">${ratePerCredit} {t("pricing.perCredit")}</p>
+                    <p className="text-xs text-slate-400 font-medium mt-2">A${ratePerCredit} {t("pricing.perCredit")}</p>
                   </div>
                   
                   <div className={`rounded-2xl p-5 mt-6 border ${plan.popular ? 'bg-orange-50/50 border-orange-100' : 'bg-slate-50/80 border-slate-100'}`}>
