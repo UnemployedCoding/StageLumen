@@ -15,7 +15,7 @@ const destination = resolve("backups", `source-${stamp}`);
 mkdirSync(destination, { recursive: true, mode: 0o700 });
 const bundle = resolve(destination, "stagelumen.bundle");
 const archive = resolve(destination, "stagelumen-source.tar.gz");
-execFileSync("git", ["bundle", "create", bundle, "--all"], { stdio: "inherit" });
+execFileSync("git", ["bundle", "create", bundle, "--branches", "--tags", "HEAD"], { stdio: "inherit" });
 execFileSync("git", ["bundle", "verify", bundle], { stdio: "inherit" });
 execFileSync("git", ["archive", "--format=tar.gz", `--output=${archive}`, commit]);
 const checksums = [bundle, archive].map(file => {
@@ -25,7 +25,7 @@ const checksums = [bundle, archive].map(file => {
 writeFileSync(resolve(destination, "SHA256SUMS"), `${checksums}\n`, { mode: 0o600 });
 writeFileSync(resolve(destination, "manifest.json"), JSON.stringify({
   created_at: new Date().toISOString(), commit,
-  includes: ["tracked source and public assets", "all local Git refs and their history"],
+  includes: ["tracked source and public assets", "local branches, tags, HEAD and their history"],
   excludes: ["untracked files", "environment secrets", "live database", "remote storage objects", "provider settings"],
 }, null, 2) + "\n", { mode: 0o600 });
 console.log(`Source backup created: ${destination}`);
