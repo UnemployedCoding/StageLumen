@@ -19,6 +19,8 @@
 
 ## Getting Started
 
+For laptop loss, hosting recovery, Docker/VPS deployment, Cloudflare preparation, and database backups, start with [RECOVERY.md](RECOVERY.md).
+
 ### Prerequisites
 - Node.js (v18+)
 - A [Supabase](https://supabase.com) project (for auth and database)

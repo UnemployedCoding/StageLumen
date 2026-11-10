@@ -1,0 +1,14 @@
+node_modules
+.git
+.next
+.open-next
+.wrangler
+.vercel
+.env*
+.dev.vars*
+backups
+*.log
+*.tsbuildinfo
+event.json
+test_script.ts
+test_stripe.ts

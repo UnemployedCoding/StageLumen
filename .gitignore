@@ -43,3 +43,11 @@ node_modules/
 .next/
 .env
 .env.local
+!.env.example
+
+# Recovery artifacts may contain confidential customer data or secrets.
+/backups/
+/.open-next/
+/.wrangler/
+.dev.vars*
+/supabase/.temp/

@@ -1,0 +1,8 @@
+# Point DNS to the VPS, open TCP 80/443, and replace the host if needed.
+www.stagelumen.com {
+    reverse_proxy 127.0.0.1:3000
+}
+
+stagelumen.com {
+    redir https://www.stagelumen.com{uri} permanent
+}
