@@ -73,7 +73,7 @@ export async function POST(request: Request) {
         mnmlFormData.append("render_style", "photoreal");
         mnmlFormData.append("geometry", "precise");
 
-        const response = await fetch("https://api.mnmlai.dev/v1/archDiffusion-v44-lite", {
+        const response = await fetch("https://api.mnml.ai/v1/archDiffusion-v44-lite", {
           method: "POST",
           headers: {
             "Authorization": `Bearer ${apiKey}`,
@@ -108,7 +108,7 @@ export async function POST(request: Request) {
             
             let statusRes;
             try {
-              statusRes = await fetch(`https://api.mnmlai.dev/v1/status/${data.id}`, {
+              statusRes = await fetch(`https://api.mnml.ai/v1/status/${data.id}`, {
                 headers: { "Authorization": `Bearer ${apiKey}` },
                 signal: controller.signal
               });

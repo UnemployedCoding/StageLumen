@@ -13,7 +13,7 @@
 ## Tech Stack
 - **Frontend Framework:** [Next.js](https://nextjs.org) (App Router)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com) v4
-- **Backend API:** Custom proxy route connected to the [MNML.ai](https://mnml.ai/) API (using the ArchDiffusion v4.3 model)
+- **Backend API:** Custom proxy route connected to the [mnml API](https://developers.mnml.ai/) at `api.mnml.ai` (using ArchDiffusion v4.4-Lite)
 - **Database & Authentication:** [Supabase](https://supabase.com)
 - **Payments:** [Stripe](https://stripe.com)
 
@@ -23,7 +23,7 @@
 - Node.js (v18+)
 - A [Supabase](https://supabase.com) project (for auth and database)
 - A [Stripe](https://stripe.com) account (for billing)
-- A [MNML.ai](https://mnml.ai) API key
+- A [mnml API](https://developers.mnml.ai/console) key
 
 ### Installation
 
@@ -51,3 +51,9 @@
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### mnml API migration
+
+Staging creation and status polling use `https://api.mnml.ai`, keeping the existing `/v1` paths and parameters. The server accepts `MNML_API_KEY` or a comma-separated `MNML_API_KEYS` list; check the configured keys in the [developer console](https://developers.mnml.ai/console).
+
+The [migration guide](https://developers.mnml.ai/docs/migrate) sets **1 March 2027** as the shutdown date for `/v1` on both hosts. Before then, migrate creation to `POST /v2/renders` and polling to `GET /v2/jobs/{id}`, adapting the request fields and response envelopes. The [v2 render reference](https://developers.mnml.ai/docs/renders) also documents expiring output URLs, so staging history will need durable image storage as part of that migration.
