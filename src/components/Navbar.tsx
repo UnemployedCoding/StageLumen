@@ -37,6 +37,7 @@ export default function Navbar() {
           .select("id, status")
           .eq("user_id", userId)
           .eq("status", "active")
+          .limit(1)
           .maybeSingle();
         setIsSubscribed(!!data);
       } catch {

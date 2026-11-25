@@ -16,8 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "StageLumen — Stage Empty Rooms in Seconds",
-  description: "Virtual Staging by AI. Get instant, highly realistic furnished room photos in seconds. Starting at just A$19/month (AUD).",
+  title: "StageLumen — Stage Empty Rooms in Minutes",
+  description: "Virtual Staging by AI. Generate realistic furnished room photos in minutes. Staging can take 1–2 minutes or longer. Starting at just A$19/month (AUD).",
   openGraph: {
     title: "StageLumen",
     description: "One click virtual staging, powered by AI.",

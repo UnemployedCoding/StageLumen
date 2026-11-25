@@ -18,6 +18,7 @@ export default async function DashboardLayout({
     .select("id, status")
     .eq("user_id", user.id)
     .eq("status", "active")
+    .limit(1)
     .maybeSingle();
 
   if (!subscription) {

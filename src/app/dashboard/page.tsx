@@ -169,7 +169,9 @@ export default function DashboardPage() {
       .select("plan, billing, current_period_end")
       .eq("user_id", user.id)
       .eq("status", "active")
-      .single();
+      .order("current_period_end", { ascending: false })
+      .limit(1)
+      .maybeSingle();
     setSubscription(data);
   };
 
@@ -324,7 +326,7 @@ export default function DashboardPage() {
                   {stagingState === "loading" ? (
                     <>
                       <span className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
-                      {`${t("dash.staging")} (${elapsed}s) — ${t("dash.canTake45s")}`}
+                      {`${t("dash.staging")} (${elapsed}s) — ${t("dash.generationTime")}`}
                     </>
                   ) : (
                     <>
@@ -346,10 +348,8 @@ export default function DashboardPage() {
                       <GalleryDragSlider beforeImage={previewUrl} afterImage={stagedUrl} />
                     </div>
                     <a
-                      href={stagedUrl}
-                      download="staged-room.jpg"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href={`/api/download?url=${encodeURIComponent(stagedUrl)}`}
+                      download
                       className="w-full flex items-center justify-center gap-2 rounded-xl border border-accent text-accent font-semibold py-3 hover:bg-orange-50 transition-colors text-sm"
                     >
                       <Download className="h-4 w-4" />
@@ -363,7 +363,7 @@ export default function DashboardPage() {
                         <>
                           <div className="mx-auto h-10 w-10 animate-spin rounded-full border-4 border-accent border-t-transparent" />
                           <p className="text-sm text-slate-400 font-medium">{t("dash.aiStaging")}</p>
-                          <p className="text-xs text-slate-300">{t("dash.upTo45s")}</p>
+                          <p className="text-xs text-slate-300">{t("dash.generationWait")}</p>
                         </>
                       ) : (
                         <>

@@ -137,7 +137,7 @@ export default function Uploader() {
     <div className="w-full max-w-5xl mx-auto p-4 sm:p-6 lg:p-8 bg-white rounded-3xl shadow-xl border border-slate-100">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-slate-900 mb-2">Try StageLumen for Free</h2>
-        <p className="text-slate-500">Upload a photo of an empty room and let AI furnish it in seconds.</p>
+        <p className="text-slate-500">Upload a photo of an empty room and let AI furnish it in minutes.</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
@@ -169,7 +169,7 @@ export default function Uploader() {
                     <Loader2 className="w-8 h-8 animate-spin text-blue-400 mb-3" />
                     <p className="font-semibold text-base mb-1">Staging your room...</p>
                     <p className="text-xs text-slate-300">
-                      AI is furnishing your space. This can take up to 45 seconds.
+                      AI is furnishing your space. This can take 1–2 minutes or longer.
                     </p>
                     <div className="mt-4 px-3 py-1 bg-white/10 rounded-full text-xs font-mono text-blue-300">
                       {loadingTime}s
@@ -290,7 +290,7 @@ export default function Uploader() {
                   <span>Staging your room...</span>
                 </div>
                 <span className="text-xs text-white/80 mt-1 font-normal tracking-wide">
-                  This can take up to 45 seconds ({loadingTime}s)
+                  This can take 1–2 minutes or longer ({loadingTime}s)
                 </span>
               </div>
             ) : stagedResult ? (
