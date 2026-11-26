@@ -47,7 +47,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "slider.empty": "Empty",
 
     // Stats Bar
-    "stats.turnaroundVal": "Under 2 minutes",
+    "stats.turnaroundVal": "Under 2min",
     "stats.turnaround": "Turnaround Time",
     "stats.costVal": "From A$19",
     "stats.cost": "Per Month",
@@ -361,7 +361,7 @@ const translations: Record<Locale, Record<string, string>> = {
     "slider.empty": "Vide",
 
     // Stats Bar
-    "stats.turnaroundVal": "Moins de 2 minutes",
+    "stats.turnaroundVal": "Moins de 2min",
     "stats.turnaround": "Délai de génération",
     "stats.costVal": "Dès 19 $ AUD",
     "stats.cost": "Par mois",
