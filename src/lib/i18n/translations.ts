@@ -47,10 +47,10 @@ const translations: Record<Locale, Record<string, string>> = {
     "slider.empty": "Empty",
 
     // Stats Bar
-    "stats.turnaroundVal": "1–2 min+",
+    "stats.turnaroundVal": "Under 2 minutes",
     "stats.turnaround": "Turnaround Time",
-    "stats.costVal": "<A$1 / img",
-    "stats.cost": "Average Cost",
+    "stats.costVal": "From A$19",
+    "stats.cost": "Per Month",
     "stats.styles": "Design Styles",
     "stats.realistic": "Realistic Staging",
     "stats.users": "Happy Users",
@@ -361,10 +361,10 @@ const translations: Record<Locale, Record<string, string>> = {
     "slider.empty": "Vide",
 
     // Stats Bar
-    "stats.turnaroundVal": "1–2 min+",
+    "stats.turnaroundVal": "Moins de 2 minutes",
     "stats.turnaround": "Délai de génération",
-    "stats.costVal": "< 1 $ AUD / photo",
-    "stats.cost": "Coût par photo",
+    "stats.costVal": "Dès 19 $ AUD",
+    "stats.cost": "Par mois",
     "stats.styles": "Styles de décoration",
     "stats.realistic": "Rendu ultra-réaliste",
     "stats.users": "Clients satisfaits",
